@@ -1,42 +1,18 @@
 # Changelog
 
-## Unreleased
-- Added an optional `DisplayTitle` prop to `TabContainer` children tabs to allow displaying custom text on tabs
-
-## 1.2.0
-
--   Added usePlugin hook
--   Added RectSize, RectOffset, and ResampleMode to icon props available in Button, MainButton, and Dropdown
--   Fixed NumberSequencePicker error when adding 21st keypoint ([#48](https://github.com/sircfenner/StudioComponents/issues/48))
--   Bumped package and tool versions
-
-## 1.1.0
-
--   Fixed image links in documentation
--   Added OnCompleted prop to Slider
--   Added component: DatePicker
-
 ## 1.0.0
 
-Migrated from [Roact](https://github.com/Roblox/roact) to [react-lua](https://github.com/jsdotlua/react-lua)
-and rewrote the library from the ground up.
-
-There are many API differences; consult the docs on this. Removal of some components was either due
-to no longer being in scope for this project or requiring an API redesign which didn't make it
-into v1.0.0.
+First release of StudioCreator after migration from [StudioComponents](https://github.com/sircfenner/StudioComponents).
 
 ### Added
 
--   Full type annotations
--   Components: DropShadowFrame, LoadingDots, NumberSequencePicker, NumericInput, ProgressBar
--   Hooks: useMouseIcon
+- **Switch component** — A toggle switch for enabling or disabling settings, with label support, hover/disabled states, and theme-aware colors matching the Checkbox/RadioButton style
+- **`DisplayTitle` prop on TabContainer tabs** — Allows displaying custom text on tab buttons (e.g. `"Comments (3)"`), defaulting to the tab key if not provided
 
-### Removed
+### Changed
 
--   Components: BaseButton, Tooltip, VerticalCollapsibleSection, VerticalExpandingList, Widget, withTheme
--   Contexts: ThemeContext
--   Hooks: usePlugin
-
-## 0.1.0 - 0.1.4
-
-Initial release through to the final Roact version. Added various components and changed APIs.
+- **Project renamed** from StudioComponents to StudioCreator across all source files, documentation, and configuration
+- **Repository moved** to [Echo-Innovations/StudioCreator](https://github.com/Echo-Innovations/StudioCreator)
+- **Package renamed** from `@sircfenner/studiocomponents` to `@echo-innovations/studiocreator`
+- **Version reset** to 1.0.0 for the new project identity
+- **README rewritten** with full API reference documenting all 21 components, CommonProps, Constants, contexts, and hooks

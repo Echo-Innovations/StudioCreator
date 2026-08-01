@@ -1,13 +1,13 @@
 {
-    "name": "@sircfenner/studiocomponents",
-    "version": "1.2.0",
+    "name": "@echo-innovations/studiocreator",
+    "version": "1.0.0",
     "description": "React components for building Roblox Studio plugins",
     "license": "MIT",
-    "author": "sircfenner <sircfenner@users.noreply.github.com>",
-    "homepage": "https://github.com/sircfenner/studiocomponents#readme",
+    "author": "Echo Innovations",
+    "homepage": "https://github.com/Echo-Innovations/StudioCreator#readme",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sircfenner/studiocomponents.git"
+        "url": "git+https://github.com/Echo-Innovations/StudioCreator.git"
     },
     "main": "src/init.luau",
     "scripts": {

@@ -1,6 +1,6 @@
 title = "StudioCreator"
-gitRepoUrl = "https://github.com/sircfenner/StudioComponents"
-organizationName = "sircfenner"
+gitRepoUrl = "https://github.com/Echo-Innovations/StudioCreator"
+organizationName = "Echo-Innovations"
 projectName = "StudioCreator"
 gitSourceBranch = "main"
 
@@ -8,7 +8,7 @@ gitSourceBranch = "main"
 tagline = "React components for building Roblox Studio plugins"
 
 [footer]
-copyright = "Copyright © 2025 sircfenner. Built with Moonwave and Docusaurus."
+copyright = "Copyright © 2025 Echo-Innovations. Built with Moonwave and Docusaurus."
 
 [home]
 enabled = true

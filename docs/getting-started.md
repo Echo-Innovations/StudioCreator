@@ -23,22 +23,22 @@ end
 
 ### Wally
 
-Add `studiocomponents` to your `wally.toml`:
+Add `studiocreator` to your `wally.toml`:
 
 ```toml
-studiocomponents = "sircfenner/studiocomponents@1.0.0"
+studiocreator = "echo-innovations/studiocreator@1.0.0"
 ```
 
 ### NPM & yarn
 
-Add `studiocomponents` to your dependencies:
+Add `studiocreator` to your dependencies:
 
 ```bash
-npm install @sircfenner/studiocomponents
+npm install @echo-innovations/studiocreator
 ```
 
 ```bash
-yarn add @sircfenner/studiocomponents
+yarn add @echo-innovations/studiocreator
 ```
 
 Run `npmluau`.
