@@ -6,7 +6,7 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/mainbutton/dark.png) | ![Light](/StudioComponents/components/mainbutton/light.png) |
+	| ![Dark](/StudioCreator/components/mainbutton/dark.png) | ![Light](/StudioCreator/components/mainbutton/light.png) |
 
 	See the docs for [Button] for information about customization and usage.
 ]=]

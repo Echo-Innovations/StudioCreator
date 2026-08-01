@@ -23,11 +23,11 @@ The design of some built-in user interface components has changed in the lifetim
 project. In some cases, these changes had negative implications for accessiblity or consistency so
 their previous versions are used here instead.
 
-## Plugins created with StudioComponents
+## Plugins created with StudioCreator
 
 With wider adoption, using these components to build a plugin will also align it with other third-party plugins in appearance, familiarity, and usability.
 
-Some plugins created with StudioComponents include:
+Some plugins created with StudioCreator include:
 
 -   [Archimedes 3](https://devforum.roblox.com/t/introducing-archimedes-3-a-building-plugin/1610366), a popular building plugin used to create smooth arcs
 -   [Collision Groups Editor](https://github.com/sircfenner/CollisionGroupsEditor), an alternative to the built-in editor for Collision Groups
@@ -40,10 +40,10 @@ Some plugins created with StudioComponents include:
 Some of these plugins were built with the earlier Roact version (version 0.x, before react-lua was adopted) or the [Fusion port](https://github.com/mvyasu/PluginEssentials) of it.
 :::
 
-## Migrating from Roact StudioComponents
+## Migrating from Roact StudioCreator
 
-Existing users of the Roact version looking to migrate their project to React and the current version of StudioComponents should:
+Existing users of the Roact version looking to migrate their project to React and the current version of StudioCreator should:
 
 1. Follow the react-lua [guide for migrating from Roact](https://jsdotlua.github.io/react-lua/migrating-from-legacy/minimum-requirements/)
 2. Follow this project's [installation guide](./getting-started)
-3. Address any [API differences](../changelog) between legacy StudioComponents and this version
+3. Address any [API differences](../changelog) between legacy StudioCreator and this version

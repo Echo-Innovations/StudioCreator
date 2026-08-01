@@ -8,7 +8,7 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/radiobutton/dark.png) | ![Light](/StudioComponents/components/radiobutton/light.png) |
+	| ![Dark](/StudioCreator/components/radiobutton/dark.png) | ![Light](/StudioCreator/components/radiobutton/light.png) |
 
 	The props and behavior for this component are the same as [Checkbox]. Importantly, this is
 	also a controlled component, which means it does not manage its own selected state. A value
@@ -18,7 +18,7 @@
 	```lua
 	local function MyComponent()
 		local selected, setSelected = React.useState(false)
-		return React.createElement(StudioComponents.RadioButton, {
+		return React.createElement(StudioCreator.RadioButton, {
 			Value = selected,
 			OnChanged = setSelected,
 		})

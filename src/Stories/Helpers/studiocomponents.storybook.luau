@@ -4,7 +4,7 @@ local React = require("@pkg/@jsdotlua/react")
 local ReactRoblox = require("@pkg/@jsdotlua/react-roblox")
 
 return {
-	name = "StudioComponents",
+	name = "StudioCreator",
 	storyRoots = {
 		script.Parent.Parent,
 	},

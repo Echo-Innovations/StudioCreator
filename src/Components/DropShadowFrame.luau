@@ -8,15 +8,15 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/dropshadowframe/dark.png) | ![Light](/StudioComponents/components/dropshadowframe/light.png) |
+	| ![Dark](/StudioCreator/components/dropshadowframe/dark.png) | ![Light](/StudioCreator/components/dropshadowframe/light.png) |
 
 	Any children passed will be parented to the container frame. For example:
 
 	```lua
 	local function MyComponent()
-		return React.createElement(StudioComponents.DropShadowFrame, {}, {
-			MyLabel = React.createElement(StudioComponents.Label, ...),
-			MyCheckbox = React.createElement(StudioComponents.Checkbox, ...),
+		return React.createElement(StudioCreator.DropShadowFrame, {}, {
+			MyLabel = React.createElement(StudioCreator.Label, ...),
+			MyCheckbox = React.createElement(StudioCreator.Checkbox, ...),
 		})
 	end
 	```

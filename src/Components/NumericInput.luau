@@ -6,7 +6,7 @@
 	
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/numericinput/dark.png) | ![Light](/StudioComponents/components/numericinput/light.png) |
+	| ![Dark](/StudioCreator/components/numericinput/dark.png) | ![Light](/StudioCreator/components/numericinput/light.png) |
 
 
 	This is a controlled component with similar behavior to [TextInput]. The current numeric value

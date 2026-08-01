@@ -1,7 +1,7 @@
-title = "StudioComponents"
+title = "StudioCreator"
 gitRepoUrl = "https://github.com/sircfenner/StudioComponents"
 organizationName = "sircfenner"
-projectName = "StudioComponents"
+projectName = "StudioCreator"
 gitSourceBranch = "main"
 
 [docusaurus]
@@ -22,7 +22,7 @@ classes = ["Constants", "CommonProps"]
 [[classOrder]]
 section = "Components"
 collapsed = false
-classes = ["Background", "Button", "Checkbox", "ColorPicker", "DatePicker", "Dropdown", "DropShadowFrame", "Label", "LoadingDots", "MainButton", "NumberSequencePicker", "NumericInput", "PluginProvider", "ProgressBar", "RadioButton", "ScrollFrame", "Slider", "Splitter", "TabContainer", "TextInput"]
+classes = ["Background", "Button", "Checkbox", "ColorPicker", "DatePicker", "Dropdown", "DropShadowFrame", "Label", "LoadingDots", "MainButton", "NumberSequencePicker", "NumericInput", "PluginProvider", "ProgressBar", "RadioButton", "ScrollFrame", "Slider", "Splitter", "Switch", "TabContainer", "TextInput"]
 
 [[classOrder]]
 section = "Hooks"

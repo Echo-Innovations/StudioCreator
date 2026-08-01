@@ -7,7 +7,7 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/numbersequencepicker/dark.png) | ![Light](/StudioComponents/components/numbersequencepicker/light.png) |
+	| ![Dark](/StudioCreator/components/numbersequencepicker/dark.png) | ![Light](/StudioCreator/components/numbersequencepicker/light.png) |
 
 	As this is a controlled component, you should pass a NumberSequence to the `Value` prop 
 	representing the current value, and a callback to the `OnChanged` prop which gets run when the 
@@ -16,7 +16,7 @@
 	```lua
 	local function MyComponent()
 		local sequence, setSequence = React.useState(NumberSequence.new(...))
-		return React.createElement(StudioComponents.NumberSequencePicker, {
+		return React.createElement(StudioCreator.NumberSequencePicker, {
 			Value = sequence,
 			OnChanged = setSequence,
 		})

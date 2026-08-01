@@ -8,13 +8,13 @@
 	
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/loadingdots/dark.gif) | ![Light](/StudioComponents/components/loadingdots/light.gif) |
+	| ![Dark](/StudioCreator/components/loadingdots/dark.gif) | ![Light](/StudioCreator/components/loadingdots/light.gif) |
 
 	Example of usage:
 
 	```lua
 	local function MyComponent()
-		return React.createElement(StudioComponents.LoadingDots, {})
+		return React.createElement(StudioCreator.LoadingDots, {})
 	end
 	```
 ]=]

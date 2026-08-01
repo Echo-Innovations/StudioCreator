@@ -5,7 +5,7 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/datepicker/dark.png) | ![Light](/StudioComponents/components/datepicker/light.png) |
+	| ![Dark](/StudioCreator/components/datepicker/dark.png) | ![Light](/StudioCreator/components/datepicker/light.png) |
 
 	This is a controlled component, which means you should pass in an initial date to the `Date`
 	prop and a callback value to the `OnChanged` prop which gets called with the new date when
@@ -14,7 +14,7 @@
 	```lua
 	local function MyComponent()
 		local date, setDate = React.useState(DateTime.now())
-		return React.createElement(StudioComponents.DatePicker, {
+		return React.createElement(StudioCreator.DatePicker, {
 			Date = date,
 			OnChanged = setDate,
 		})

@@ -5,7 +5,7 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/colorpicker/dark.png) | ![Light](/StudioComponents/components/colorpicker/light.png) |
+	| ![Dark](/StudioCreator/components/colorpicker/dark.png) | ![Light](/StudioCreator/components/colorpicker/light.png) |
 
 	This is a controlled component, which means the current color should be passed in to the
 	`Color` prop and a callback value to the `OnChanged` prop which gets run when the user attempts 
@@ -14,7 +14,7 @@
 	```lua
 	local function MyComponent()
 		local color, setColor = React.useState(Color3.fromHex("#008080"))
-		return React.createElement(StudioComponents.ColorPicker, {
+		return React.createElement(StudioCreator.ColorPicker, {
 			Value = color,
 			OnChanged = setColor,
 		})

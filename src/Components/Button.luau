@@ -5,14 +5,14 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/button/dark.png) | ![Light](/StudioComponents/components/button/light.png) |
+	| ![Dark](/StudioCreator/components/button/dark.png) | ![Light](/StudioCreator/components/button/light.png) |
 
 	The `OnActivated` prop should be a callback which is run when the button is clicked.
 	For example:
 	
 	```lua
 	local function MyComponent()
-		return React.createElement(StudioComponents.Button, {
+		return React.createElement(StudioCreator.Button, {
 			Text = "Click Me",
 			OnActivated = function()
 				print("Button clicked!")

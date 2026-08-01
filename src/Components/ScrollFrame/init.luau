@@ -6,7 +6,7 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/scrollframe/dark.png) | ![Light](/StudioComponents/components/scrollframe/light.png) |
+	| ![Dark](/StudioCreator/components/scrollframe/dark.png) | ![Light](/StudioCreator/components/scrollframe/light.png) |
 
 	ScrollFrames automatically size their canvas to fit their contents, which are passed via the
 	`children` parameters in createElement. By default, children are laid out with a [UIListLayout];
@@ -16,7 +16,7 @@
 
 	```lua
 	local function MyComponent()
-		return React.createElement(StudioComponents.ScrollFrame, {
+		return React.createElement(StudioCreator.ScrollFrame, {
 			Layout = {
 				ClassName = "UIListLayout",
 				Padding = UDim.new(0, 10),

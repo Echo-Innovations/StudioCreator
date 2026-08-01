@@ -9,7 +9,7 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/dropdown/dark.png) | ![Light](/StudioComponents/components/dropdown/light.png) |
+	| ![Dark](/StudioCreator/components/dropdown/dark.png) | ![Light](/StudioCreator/components/dropdown/light.png) |
 
 	By default, the dropdown list opens below the top section.  However, if there is not enough 
 	space below, and there is more space above, the dropdown list will open upwards instead. 
@@ -28,7 +28,7 @@
 	local function MyComponent()
 		local selected, setSelected = React.useState("Red")
 		local items = {	"Red", "Green", "Blue" }
-		return React.createElement(StudioComponents.Dropdown, {
+		return React.createElement(StudioCreator.Dropdown, {
 			Items = items,
 			SelectedItem = selected,
 			OnItemSelected = setSelected,
@@ -57,7 +57,7 @@
 			...
 		}
 		...
-		return React.createElement(StudioComponents.Dropdown, {
+		return React.createElement(StudioCreator.Dropdown, {
 			Items = items,
 			SelectedItem = "item-1",
 			...

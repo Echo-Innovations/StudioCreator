@@ -6,7 +6,7 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/textinput/dark.png) | ![Light](/StudioComponents/components/textinput/light.png) |
+	| ![Dark](/StudioCreator/components/textinput/dark.png) | ![Light](/StudioCreator/components/textinput/light.png) |
 
 	This is a controlled component, which means the current text should be passed in to the
 	`Text` prop and a callback value to the `OnChanged` prop which gets run when the user attempts 
@@ -15,7 +15,7 @@
 	```lua
 	local function MyComponent()
 		local text, setText = React.useState("")
-		return React.createElement(StudioComponents.TextInput, {
+		return React.createElement(StudioCreator.TextInput, {
 			Text = text,
 			OnChanged = setText,
 		})
@@ -30,7 +30,7 @@
 	```lua
 	local function MyComponent()
 		local text, setText = React.useState("")
-		return React.createElement(StudioComponents.TextInput, {
+		return React.createElement(StudioCreator.TextInput, {
 			Text = text,
 			OnChanged = function(newText),
 				local filteredText = string.gsub(newText, "[^a-z]", "")

@@ -5,7 +5,7 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/label/dark.png) | ![Light](/StudioComponents/components/label/light.png) |
+	| ![Dark](/StudioCreator/components/label/dark.png) | ![Light](/StudioCreator/components/label/light.png) |
 
 	By default, text color matches the current theme's MainText color, which is the color
 	used in the Explorer and Properties widgets as well as most other places. It can be overriden
@@ -20,7 +20,7 @@
 
 	```lua
 	local function MyComponent()
-		return React.createElement(StudioComponents.Label, {
+		return React.createElement(StudioCreator.Label, {
 			Text = "Please enter at least 5 characters!",
 			TextColorStyle = Enum.StudioStyleGuideColor.ErrorText,
 		})

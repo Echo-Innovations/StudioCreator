@@ -19,6 +19,7 @@ return {
 	ScrollFrame = require("./Components/ScrollFrame"),
 	Slider = require("./Components/Slider"),
 	Splitter = require("./Components/Splitter"),
+	Switch = require("./Components/Switch"),
 	TabContainer = require("./Components/TabContainer"),
 	TextInput = require("./Components/TextInput"),
 

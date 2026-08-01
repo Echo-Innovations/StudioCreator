@@ -7,7 +7,7 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/splitter/dark.png) | ![Light](/StudioComponents/components/splitter/light.png) |
+	| ![Dark](/StudioCreator/components/splitter/dark.png) | ![Light](/StudioCreator/components/splitter/light.png) |
 
 	This is a controlled component. The current split location should be passed as a number between
 	0 and 1 to the `Alpha` prop, and a callback should be passed to the `OnChanged` prop, which
@@ -22,7 +22,7 @@
 	```lua
 	local function MyComponent()
 		local division, setDivision = React.useState(0.5)
-		return React.createElement(StudioComponents.Splitter, {
+		return React.createElement(StudioCreator.Splitter, {
 			Alpha = division,
 			OnChanged = setDivision,
 		}, {

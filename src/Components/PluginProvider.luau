@@ -15,7 +15,7 @@
 	
 	```lua
 	local function MyComponent()
-		return React.createElement(StudioComponents.PluginProvider, {
+		return React.createElement(StudioCreator.PluginProvider, {
 			Plugin = plugin,
 		}, {
 			MyExample = React.createElement(MyExample, ...)

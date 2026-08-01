@@ -1,6 +1,6 @@
-# StudioComponents
+# StudioCreator
 
-## [Read the documentation here!](https://sircfenner.github.io/StudioComponents/)
+## [Read the documentation here!](https://sircfenner.github.io/StudioCreator/)
 
 A collection of React implementations of Roblox Studio components such as Checkboxes, Buttons, and Dropdowns. This is intended for building plugins for Roblox Studio.
 

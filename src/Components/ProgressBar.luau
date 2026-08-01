@@ -6,7 +6,7 @@
 	
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/progressbar/dark.png) | ![Light](/StudioComponents/components/progressbar/light.png) |
+	| ![Dark](/StudioCreator/components/progressbar/dark.png) | ![Light](/StudioCreator/components/progressbar/light.png) |
 
 	Pass a number representing the current progress into the `Value` prop. You can optionally pass a 
 	number representing the maximum value into the `Max` prop, which defaults to 1 if not provided. 
@@ -14,7 +14,7 @@
 
 	```lua
 	local function MyComponent()
-		return React.createElement(StudioComponents.ProgressBar, {
+		return React.createElement(StudioCreator.ProgressBar, {
 			Value = 5, -- loaded 5 items
 			Max = 10, -- out of a total of 10 items
 		})
@@ -28,7 +28,7 @@
 
 	```lua
 	local function MyComponent()
-		return React.createElement(StudioComponents.ProgressBar, {
+		return React.createElement(StudioCreator.ProgressBar, {
 			Value = 3,
 			Max = 20,
 			Formatter = function(current, max)

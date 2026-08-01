@@ -7,7 +7,7 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/slider/dark.png) | ![Light](/StudioComponents/components/slider/light.png) |
+	| ![Dark](/StudioCreator/components/slider/dark.png) | ![Light](/StudioCreator/components/slider/light.png) |
 
 	As with other components in this library, this is a controlled component. You should pass a
 	value to the `Value` prop representing the current value, as well as a callback to the `OnChanged`
@@ -20,7 +20,7 @@
 	```lua
 	local function MyComponent()
 		local value, setValue = React.useState(1)
-		return React.createElement(StudioComponents.Slider, {
+		return React.createElement(StudioCreator.Slider, {
 			Value = value,
 			OnChanged = setValue,
 			Min = 0,

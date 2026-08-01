@@ -5,14 +5,14 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/background/dark.png) | ![Light](/StudioComponents/components/background/light.png) |
+	| ![Dark](/StudioCreator/components/background/dark.png) | ![Light](/StudioCreator/components/background/light.png) |
 
 	Any children passed will be parented to the frame, which makes it suitable for use as, 
 	for example, the root component in a plugin Widget. For example:
 
 	```lua
 	local function MyComponent()
-		return React.createElement(StudioComponents.Background, {}, {
+		return React.createElement(StudioCreator.Background, {}, {
 			MyChild = React.createElement(...),
 		})
 	end

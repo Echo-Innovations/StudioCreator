@@ -6,7 +6,7 @@
 
 	| Dark | Light |
 	| - | - |
-	| ![Dark](/StudioComponents/components/checkbox/dark.png) | ![Light](/StudioComponents/components/checkbox/light.png) |
+	| ![Dark](/StudioCreator/components/checkbox/dark.png) | ![Light](/StudioCreator/components/checkbox/light.png) |
 
 	As this is a controlled component, you should pass a value to the `Value` prop representing 
 	whether the box is checked, and a callback value to the `OnChanged`	prop which gets run when 
@@ -15,7 +15,7 @@
 	```lua
 	local function MyComponent()
 		local selected, setSelected = React.useState(false)
-		return React.createElement(StudioComponents.Checkbox, {
+		return React.createElement(StudioCreator.Checkbox, {
 			Value = selected,
 			OnChanged = setSelected,
 		})

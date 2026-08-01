@@ -6,15 +6,15 @@ sidebar_position: 2
 
 This project is built for react-lua, which can be installed either via NPM/yarn, wally, or a release. See the [repository](https://github.com/jsdotlua/react-lua) for more information.
 
-StudioComponents exposes a table of components, hooks, and a reference to the Constants file. Minimal example of using a component from StudioComponents:
+StudioCreator exposes a table of components, hooks, and a reference to the Constants file. Minimal example of using a component from StudioCreator:
 
 ```lua
 local React = require(Packages.React)
-local StudioComponents = require(Packages.StudioComponents)
+local StudioCreator = require(Packages.StudioCreator)
 
 local function MyComponent()
-	return React.createElement(StudioComponents.Label, {
-		Text = "Hello, from StudioComponents!"
+	return React.createElement(StudioCreator.Label, {
+		Text = "Hello, from StudioCreator!"
 	})
 end
 ```
