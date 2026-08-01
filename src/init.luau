@@ -22,6 +22,7 @@ return {
 	Switch = require("./Components/Switch"),
 	TabContainer = require("./Components/TabContainer"),
 	TextInput = require("./Components/TextInput"),
+	Tooltip = require("./Components/Tooltip"),
 
 	ThemeContext = require("./Contexts/ThemeContext"),
 

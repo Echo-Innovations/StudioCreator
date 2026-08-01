@@ -146,7 +146,7 @@ local function Switch(props: SwitchProps)
 			}),
 			Thumb = React.createElement("Frame", {
 				AnchorPoint = Vector2.new(0, 0.5),
-				Position = UDim2.new(0, thumbX, 0.5, 0),
+				Position = UDim2.new(0, thumbX, 0.501, 0),
 				Size = UDim2.fromOffset(THUMB_SIZE, THUMB_SIZE),
 				BackgroundColor3 = Color3.fromRGB(255, 255, 255),
 				BackgroundTransparency = thumbTransparency,

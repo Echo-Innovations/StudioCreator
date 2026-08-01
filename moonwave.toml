@@ -12,7 +12,7 @@ copyright = "Copyright © 2025 Echo-Innovations. Built with Moonwave and Docusau
 
 [home]
 enabled = true
-includeReadme = false
+includeReadme = true
 
 [[classOrder]]
 section = "General"
@@ -22,7 +22,7 @@ classes = ["Constants", "CommonProps"]
 [[classOrder]]
 section = "Components"
 collapsed = false
-classes = ["Background", "Button", "Checkbox", "ColorPicker", "DatePicker", "Dropdown", "DropShadowFrame", "Label", "LoadingDots", "MainButton", "NumberSequencePicker", "NumericInput", "PluginProvider", "ProgressBar", "RadioButton", "ScrollFrame", "Slider", "Splitter", "Switch", "TabContainer", "TextInput"]
+classes = ["Background", "Button", "Checkbox", "ColorPicker", "DatePicker", "Dropdown", "DropShadowFrame", "Label", "LoadingDots", "MainButton", "NumberSequencePicker", "NumericInput", "PluginProvider", "ProgressBar", "RadioButton", "ScrollFrame", "Slider", "Splitter", "Switch", "TabContainer", "TextInput", "Tooltip"]
 
 [[classOrder]]
 section = "Hooks"

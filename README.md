@@ -19,6 +19,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Why StudioCreator?](#why-studiocreator)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -46,6 +47,7 @@
   - [Switch](#switch)
   - [TabContainer](#tabcontainer)
   - [TextInput](#textinput)
+  - [Tooltip](#tooltip)
 - [Contexts](#contexts)
   - [ThemeContext](#themecontext)
   - [PluginContext](#plugincontext)
@@ -54,6 +56,7 @@
   - [usePlugin](#useplugin)
   - [useMouseIcon](#usemouseicon)
 - [Scripts](#scripts)
+- [Migration](#migration)
 - [License](#license)
 
 ---
@@ -63,6 +66,20 @@
 A collection of recreated built-in Studio UI elements — Checkboxes, Buttons, Dropdowns, Toggle Switches, and more — that match the look, feel, and theme responsiveness of native Studio widgets.
 
 Built for [react-lua](https://github.com/jsdotlua/react-lua), the Roblox translation of React 17.x into Luau.
+
+> [!NOTE]
+> These components are only suitable for use in plugins. They rely on plugin- or Studio-only APIs.
+
+---
+
+## Why StudioCreator?
+
+Closely replicating the built-in Studio UI has two main advantages:
+
+1. Roblox Studio users recognise these components and know how to use them.
+2. Less adjustment required when switching between third-party and built-in interfaces.
+
+With wider adoption, using these components to build a plugin aligns it with other third-party plugins in appearance, familiarity, and usability. Many plugins have been built with this component set, including Archimedes 3, Collision Groups Editor, Benchmarker, and LampLight.
 
 ---
 
@@ -537,6 +554,20 @@ A basic input field for entering any kind of text. Matches the appearance of sea
 
 ---
 
+### Tooltip
+
+Wraps a target element and displays a tooltip at the bottom-right of the cursor when the mouse hovers over it. The tooltip is styled to match built-in Studio tooltips with a drop shadow. It automatically clamps to stay within parent bounds and hides when the cursor leaves.
+
+**Props** (in addition to CommonProps):
+
+| Prop | Type | Description |
+|------|------|-------------|
+| Text | `string` | The text to display in the tooltip |
+| TooltipZIndex | `number?` | Z-index of the tooltip overlay (defaults to 999) |
+| children | `React.ReactNode` | The target element to wrap and hover over |
+
+---
+
 ## Contexts
 
 ### ThemeContext
@@ -600,6 +631,18 @@ A hook for setting and clearing custom mouse icons. Requires a `PluginProvider` 
 | `npm run format` | Format all source files with StyLua |
 | `npm run style-check` | Check formatting without applying |
 | `npm run clean` | Remove build artifacts |
+
+---
+
+## Migration
+
+### Migrating from Roact StudioComponents
+
+Existing users of the Roact version of [StudioComponents](https://github.com/sircfenner/StudioComponents) looking to migrate to this version should:
+
+1. Follow the react-lua [guide for migrating from Roact](https://jsdotlua.github.io/react-lua/migrating-from-legacy/minimum-requirements/)
+2. Follow this project's [installation guide](#installation)
+3. Address any API differences between legacy StudioComponents and this version
 
 ---
 
