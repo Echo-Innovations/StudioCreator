@@ -56,7 +56,6 @@
   - [usePlugin](#useplugin)
   - [useMouseIcon](#usemouseicon)
 - [Scripts](#scripts)
-- [Migration](#migration)
 - [License](#license)
 
 ---
@@ -631,18 +630,6 @@ A hook for setting and clearing custom mouse icons. Requires a `PluginProvider` 
 | `npm run format` | Format all source files with StyLua |
 | `npm run style-check` | Check formatting without applying |
 | `npm run clean` | Remove build artifacts |
-
----
-
-## Migration
-
-### Migrating from Roact StudioComponents
-
-Existing users of the Roact version of [StudioComponents](https://github.com/sircfenner/StudioComponents) looking to migrate to this version should:
-
-1. Follow the react-lua [guide for migrating from Roact](https://jsdotlua.github.io/react-lua/migrating-from-legacy/minimum-requirements/)
-2. Follow this project's [installation guide](#installation)
-3. Address any API differences between legacy StudioComponents and this version
 
 ---
 
