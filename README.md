@@ -62,7 +62,7 @@
 
 ## Overview
 
-A collection of recreated built-in Studio UI elements — Checkboxes, Buttons, Dropdowns, Toggle Switches, and more — that match the look, feel, and theme responsiveness of native Studio widgets.
+A collection of recreated built-in Studio UI elements - Checkboxes, Buttons, Dropdowns, Toggle Switches, and more - that match the look, feel, and theme responsiveness of native Studio widgets.
 
 Built for [react-lua](https://github.com/jsdotlua/react-lua), the Roblox translation of React 17.x into Luau.
 
@@ -257,7 +257,7 @@ A box which can be checked or unchecked, usually used to toggle an option. Passi
 
 ### ColorPicker
 
-An interface for selecting a color with a Hue/Saturation box and a Value slider. Individual RGB and HSV values can also be modified manually. This is not a modal — that must be implemented separately.
+An interface for selecting a color with a Hue/Saturation box and a Value slider. Individual RGB and HSV values can also be modified manually. This is not a modal - that must be implemented separately.
 
 **Props** (in addition to CommonProps):
 
@@ -595,7 +595,7 @@ A React context that provides plugin API access to descendant components. Set up
 
 A hook for reading the selected Studio Theme. Returns a `StudioTheme` instance that can be used to theme custom components. Falls back to `Studio.Theme` if no ThemeContext provider is present. **No provider required to function.**
 
-**Returns:** `StudioTheme` — the current Studio theme instance.
+**Returns:** `StudioTheme` - the current Studio theme instance.
 
 ---
 
@@ -603,15 +603,15 @@ A hook for reading the selected Studio Theme. Returns a `StudioTheme` instance t
 
 A hook that obtains a reference to the root `Plugin` instance associated with the current plugin. Requires a single `PluginProvider` to be present higher up in the tree.
 
-**Returns:** `Plugin?` — the plugin's root instance, or `nil` if no PluginProvider is mounted.
+**Returns:** `Plugin?` - the plugin's root instance, or `nil` if no PluginProvider is mounted.
 
 ---
 
 ### useMouseIcon
 
-A hook for setting and clearing custom mouse icons. Requires a `PluginProvider` higher up in the tree. Multiple components can share an icon stack — the most recent call to `setIcon` wins.
+A hook for setting and clearing custom mouse icons. Requires a `PluginProvider` higher up in the tree. Multiple components can share an icon stack - the most recent call to `setIcon` wins.
 
-**Returns:** `mouseIconApi` — an object with the following methods:
+**Returns:** `mouseIconApi` - an object with the following methods:
 
 | Method | Signature | Description |
 |--------|-----------|-------------|
